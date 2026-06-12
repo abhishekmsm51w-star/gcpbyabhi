@@ -1,3 +1,6 @@
-© 2026 All Rights Reserved.
+# LICENSE
 
-This content may not be reproduced, copied, distributed, modified, published, transmitted, displayed, or used in any form without prior written permission from the copyright owner.
+Copyright © 2026 Dr. Abhishek. All Rights Reserved.
+
+All code and content in this repository are copyrighted by Dr. Abhishek. 
+Do not copy, redistribute, or modify any part of this project without explicit prior written permission from the owner.
