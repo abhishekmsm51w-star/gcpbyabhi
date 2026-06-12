@@ -17,7 +17,7 @@ sudo chmod +x abhishek.sh
 ```
 rm deidentify-model-response-challenge-lab-v1.0.0.ipynb
 
-curl -LO raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/deidentify-model-response-challenge-lab-v1.0.0.ipynb
+curl -LO raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Discover%20and%20Protect%20Sensitive%20Data%20Across%20Your%20Ecosystem%20Challenge%20Lab/deidentify-model-response-challenge-lab-v1.0.0.ipynb
 ```
 ### Congratulations !!!!
 

@@ -142,7 +142,7 @@ git push google master
 git checkout -b production
 rm cloudbuild.yaml
 
-curl -LO raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/env-cloudbuild.yaml
+curl -LO raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/env-cloudbuild.yaml
 mv env-cloudbuild.yaml cloudbuild.yaml
 
 sed -i "s/REGION-/$REGION/g" cloudbuild.yaml
@@ -163,7 +163,7 @@ git push google master
 
 rm cloudbuild.yaml
 
-curl -LO raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/app-cloudbuild.yaml
+curl -LO raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Google%20Kubernetes%20Engine%20Pipeline%20using%20Cloud%20Build/app-cloudbuild.yaml
 mv app-cloudbuild.yaml cloudbuild.yaml
 
 sed -i "s/REGION/$REGION/g" cloudbuild.yaml
