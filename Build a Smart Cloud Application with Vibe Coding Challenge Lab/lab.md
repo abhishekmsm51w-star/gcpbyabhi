@@ -16,7 +16,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 ### ©Credit
 - **DM for credit or removal request (no copyright intended) ©All rights and credits for the original content belong to Google Cloud [Google Cloud Skill Boost website](https://www.cloudskillsboost.google/)** 🙏
 
-## Agaye na copy karne bhai
+### Step 1: Enable Required Google Cloud APIs
 
 ```bash
 gcloud services enable \
@@ -27,28 +27,38 @@ cloudbuild.googleapis.com \
 run.googleapis.com
 ```
 
-```bash
-read -p $'\e[1;36mEnter your student email address (the one used to start the lab): \e[0m' STUDENT_EMAIL
-PROJECT_ID=$(gcloud config get-value project)
-echo -e "\n\e[1;34m Using Project ID:\e[0m \e[1;33m$PROJECT_ID\e[0m"
-echo -e "\e[1;34m Using Student Email:\e[0m \e[1;33m$STUDENT_EMAIL\e[0m\n"
-echo -e "\e[1;35mGranting Cloud Run Admin role...\e[0m"
+## Step 2: Grant Required IAM Roles
 
+```bash
+read -p $'\e[1;36mEnter your lab email address: \e[0m' USER_EMAIL
+
+PROJECT_ID=$(gcloud config get-value project)
+
+echo -e "\n\e[1;34mProject ID:\e[0m \e[1;33m$PROJECT_ID\e[0m"
+echo -e "\e[1;34mEmail:\e[0m \e[1;33m$USER_EMAIL\e[0m\n"
+
+echo -e "\e[1;35mApplying Cloud Run Admin role...\e[0m"
 gcloud projects add-iam-policy-binding "$PROJECT_ID" \
-  --member="user:$STUDENT_EMAIL" \
+  --member="user:$USER_EMAIL" \
   --role="roles/run.admin" \
   --quiet
-echo -e "\e[1;35mGranting Vertex AI User role...\e[0m"
+
+echo -e "\e[1;35mApplying Vertex AI User role...\e[0m"
 gcloud projects add-iam-policy-binding "$PROJECT_ID" \
-  --member="user:$STUDENT_EMAIL" \
+  --member="user:$USER_EMAIL" \
   --role="roles/aiplatform.user" \
   --quiet
 
-echo -e "\n\e[1;32mIAM roles applied successfully for\e[0m \e[1;33m$STUDENT_EMAIL\e[0m \e[1;32mon project\e[0m \e[1;33m$PROJECT_ID\e[0m\n"
+echo -e "\n\e[1;32mAll required permissions have been assigned successfully.\e[0m"
 ```
-[![Watch on YouTube For 100% SCORE](https://img.shields.io/badge/Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/QLpiCXoLMlE)
 
-```bash
+### 🎥 Need Help?
+
+If you encounter any issues during the lab, follow the complete video walkthrough below:
+
+[![Complete Video Walkthrough](https://img.shields.io/badge/Watch_Complete_Guide-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/QLpiCXoLMlE)
+
+```python
 tools = [google_search]
 ```
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Enhanced Color Definitions
+
 # Bright Foreground Colors
 BLACK=$'\033[0;90m'
 RED=$'\033[0;91m'
@@ -28,7 +28,7 @@ clear
 # Welcome Banner
 echo "${BLUE}${BOLD}╔════════════════════════════════════════════╗${RESET}"
 echo "${BLUE}${BOLD}║                                            ║${RESET}"
-echo "${BLUE}${BOLD}║    ${WHITE}${BG_BLUE} WELCOME TO DR ABHISHEK CLOUD TUTORIAL ${RESET}${BLUE}${BOLD}    ║${RESET}"
+echo "${BLUE}${BOLD}║    ${WHITE}${BG_BLUE} GEMINI AI IMPLEMENTATION SCRIPT ${RESET}${BLUE}${BOLD}    ║${RESET}"
 echo "${BLUE}${BOLD}║                                            ║${RESET}"
 echo "${BLUE}${BOLD}╚════════════════════════════════════════════╝${RESET}"
 echo
@@ -149,5 +149,5 @@ echo "${WHITE}${BOLD}For more cloud tutorials and guides:${RESET}"
 echo "${YELLOW}${BOLD}👉 Subscribe to Dr. Abhishek Cloud Tutorials:${RESET}"
 echo "${BLUE}${UNDERLINE}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
 echo
-echo "${MAGENTA}Thank you Do like share and subscribe to the channel ${RESET}"
+echo "${MAGENTA}Thank you for using this script!${RESET}"
 echo
