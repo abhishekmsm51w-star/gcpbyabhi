@@ -30,7 +30,7 @@ Use Compute Engine to host a web application using a NGINX web server.
 export ZONE=
 ```
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/The%20Basics%20of%20Google%20Cloud%20Compute%3A%20Challenge%20Lab/abhishekARC120.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/The%20Basics%20of%20Google%20Cloud%20Compute-%20Challenge%20Lab/abhishekARC120.sh
 sudo chmod +x abhishekARC120.sh
 ./abhishekARC120.sh
 

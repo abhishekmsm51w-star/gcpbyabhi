@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Fundamentals%20of%20Cloud%20Logging/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Fundamentals%20of%20Cloud%20Logging/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

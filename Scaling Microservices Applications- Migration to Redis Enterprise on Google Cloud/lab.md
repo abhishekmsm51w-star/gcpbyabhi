@@ -13,7 +13,7 @@
 ```bash
 
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Scaling%20Microservices%20Applications%3A%20Migration%20to%20Redis%20Enterprise%20on%20Google%20Cloud/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Scaling%20Microservices%20Applications-%20Migration%20to%20Redis%20Enterprise%20on%20Google%20Cloud/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -22,7 +22,7 @@ Start by accessing the Workbench from the following link:
 ```
 rm 2_dataset_api.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/TensorFlow%20Dataset%20API/2_dataset_api.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/TensorFlow%20Dataset%20API/2_dataset_api.ipynb
 ```
 
 

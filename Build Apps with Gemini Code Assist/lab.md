@@ -25,7 +25,7 @@ Start your Google CloudShell session by [clicking here](https://console.cloud.go
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Apps%20with%20Gemini%20Code%20Assist/drabhishek1.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20Apps%20with%20Gemini%20Code%20Assist/drabhishek1.sh
 sudo chmod +x drabhishek1.sh
 ./drabhishek1.sh
 
@@ -36,7 +36,7 @@ sudo chmod +x drabhishek1.sh
 Now Visit to WorkStation by [Clicking here](https://console.cloud.google.com/workstations/list?referrer=search&project=)
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Apps%20with%20Gemini%20Code%20Assist/drabhishek2.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20Apps%20with%20Gemini%20Code%20Assist/drabhishek2.sh
 source drabhishek2.sh
 
 ```

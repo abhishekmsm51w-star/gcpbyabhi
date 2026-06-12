@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/BigQuery%3A%20Qwik%20Start%20-%20Console/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/BigQuery-%20Qwik%20Start%20-%20Console/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

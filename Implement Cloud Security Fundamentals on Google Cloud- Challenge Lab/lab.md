@@ -11,7 +11,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Implement%20Cloud%20Security%20Fundamentals%20on%20Google%20Cloud%3A%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Implement%20Cloud%20Security%20Fundamentals%20on%20Google%20Cloud-%20Challenge%20Lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

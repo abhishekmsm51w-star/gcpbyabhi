@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introduction%20to%20Computer%20Vision%20with%20TensorFlow/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introduction%20to%20Computer%20Vision%20with%20TensorFlow/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -20,7 +20,7 @@ Explore the connectivity for VM instances
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/VPC%20Networking%20Fundamentals/abhishekGSP210.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/VPC%20Networking%20Fundamentals/abhishekGSP210.sh
 sudo chmod +x abhishekGSP210.sh
 ./abhishekGSP210.sh
 ```

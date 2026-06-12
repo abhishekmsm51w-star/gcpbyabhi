@@ -24,7 +24,7 @@ Start by accessing the Workbench from the following link:
 ```
 rm preprocessing_layers.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Classifying%20Structured%20Data%20using%20Keras%20Preprocessing%20Layers/preprocessing_layers.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Classifying%20Structured%20Data%20using%20Keras%20Preprocessing%20Layers/preprocessing_layers.ipynb
 
 ```
 

@@ -20,7 +20,7 @@ In this lab, you will learn how to perform the following tasks:
 Run the following commands to download and execute the setup script:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Create%20a%20Virtual%20Machine/gsp001.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Create%20a%20Virtual%20Machine/gsp001.sh
 sudo chmod +x gsp001.sh
 ./gsp001.sh
 

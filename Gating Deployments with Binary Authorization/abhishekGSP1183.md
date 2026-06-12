@@ -19,7 +19,7 @@ Blocked unsigned Images
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Gating%20Deployments%20with%20Binary%20Authorization/abhishekGSP1183.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Gating%20Deployments%20with%20Binary%20Authorization/abhishekGSP1183.sh
 sudo chmod +x abhishekGSP1183.sh
 ./abhishekGSP1183.sh
 ```

@@ -51,7 +51,7 @@ echo
 
 # Download Demo Image
 echo "${YELLOW}${BOLD}Step 3: Downloading Demo Image${RESET}"
-IMAGE_URL="https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/APIs%20Explorer%20Qwik%20Start/demo-image.jpg"
+IMAGE_URL="https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/APIs%20Explorer%20Qwik%20Start/demo-image.jpg"
 IMAGE_FILE="demo-image-$(date +%s).jpg"
 
 if ! curl -s -o $IMAGE_FILE -L "$IMAGE_URL"; then

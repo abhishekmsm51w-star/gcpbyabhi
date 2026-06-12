@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Using%20Role-based%20Access%20Control%20in%20Kubernetes%20Engine/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Using%20Role-based%20Access%20Control%20in%20Kubernetes%20Engine/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

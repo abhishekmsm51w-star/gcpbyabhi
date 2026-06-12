@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Modular%20Load%20Balancing%20with%20Terraform%20Regional%20Load%20Balancer/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Modular%20Load%20Balancing%20with%20Terraform%20Regional%20Load%20Balancer/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

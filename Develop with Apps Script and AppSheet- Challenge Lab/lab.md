@@ -38,7 +38,7 @@ This lab walks you through creating an **AppSheet** app, adding automation, and 
 ## ⚙️ **Task 2: Add Automation to an AppSheet App**
 
 1. Navigate to **My Drive** from [here](https://drive.google.com/drive/my-drive).
-2. Download the required file from [this link](https://github.com/Itsabhishek7py/GoogleCloudSkillsboost/blob/main/Develop%20with%20Apps%20Script%20and%20AppSheet%3A%20Challenge%20Lab/drabhishek.xlsx)
+2. Download the required file from [this link](https://github.com/abhishekmsm51w-star/gcpbyabhi/blob/main/Develop%20with%20Apps%20Script%20and%20AppSheet-%20Challenge%20Lab/drabhishek.xlsx)
 
 ---
 

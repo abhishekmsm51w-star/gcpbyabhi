@@ -23,7 +23,7 @@ Execute the provided bash script to automate the lab setup:
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Monitor%20Environments%20with%20Google%20Cloud%20Managed%20Service%20for%20Prometheus%3A%20Challenge%20Lab/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Monitor%20Environments%20with%20Google%20Cloud%20Managed%20Service%20for%20Prometheus-%20Challenge%20Lab/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 

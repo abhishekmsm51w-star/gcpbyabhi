@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Video%20Intelligence%3A%20Qwik%20Start/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Video%20Intelligence-%20Qwik%20Start/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -23,7 +23,7 @@ Start by accessing the Workbench from the following link:
 ```
 rm neural_network.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20DNN%20using%20the%20Keras%20Functional%20API/neural_network.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20a%20DNN%20using%20the%20Keras%20Functional%20API/neural_network.ipynb
 
 ```
 

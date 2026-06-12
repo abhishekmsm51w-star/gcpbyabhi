@@ -19,7 +19,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Promote%20Cross%20Region%20sec%20cluster%20alloydb%20challenge%20lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Promote%20Cross%20Region%20sec%20cluster%20alloydb%20challenge%20lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 

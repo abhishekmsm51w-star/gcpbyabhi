@@ -105,7 +105,7 @@ gcloud spanner databases execute-sql banking-ops-db --instance=banking-ops-insta
 
 # Download customer data
 echo "${CYAN}${BOLD}Downloading customer data${RESET}"
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Create%20and%20Manage%20Cloud%20Spanner%20Instances%3A%20Challenge%20Lab/Customer_List_500.csv
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Create%20and%20Manage%20Cloud%20Spanner%20Instances-%20Challenge%20Lab/Customer_List_500.csv
 
 # Prepare Dataflow
 echo "${CYAN}${BOLD}Preparing Dataflow service${RESET}"

@@ -17,7 +17,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20a%20Persistent%20Disk/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20a%20Persistent%20Disk/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

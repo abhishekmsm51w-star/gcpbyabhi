@@ -50,7 +50,7 @@ We gratefully acknowledge Google's learning resources that make cloud education 
 export ZONE=
 ````
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Autoscaling%20an%20Instance%20Group%20with%20Custom%20Cloud%20Monitoring%20Metrics/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

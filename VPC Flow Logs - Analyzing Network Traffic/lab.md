@@ -19,7 +19,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/VPC%20Flow%20Logs%20-%20Analyzing%20Network%20Traffic/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

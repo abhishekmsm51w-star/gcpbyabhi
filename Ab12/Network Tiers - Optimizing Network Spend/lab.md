@@ -14,7 +14,7 @@ export ZONE=
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Ab12/Network%20Tiers%20-%20Optimizing%20Network%20Spend/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Ab12/Network%20Tiers%20-%20Optimizing%20Network%20Spend/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

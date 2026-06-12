@@ -20,7 +20,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/How%20to%20Use%20a%20Network%20Policy%20on%20Google%20Kubernetes%20Engine/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/How%20to%20Use%20a%20Network%20Policy%20on%20Google%20Kubernetes%20Engine/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

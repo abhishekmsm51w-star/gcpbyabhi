@@ -22,7 +22,7 @@ gcloud compute ssh lab-vm --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --quiet
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Speech%20API%203%20Ways%3A%20Challenge%20Lab/abhishekARC132.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Speech%20API%203%20Ways-%20Challenge%20Lab/abhishekARC132.sh
 sudo chmod +x abhishekARC132.sh
 ./abhishekARC132.sh
 ```

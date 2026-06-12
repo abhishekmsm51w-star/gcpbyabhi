@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Multiple%20VPC%20Networks/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Multiple%20VPC%20Networks/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -16,7 +16,7 @@ Initiate and mitigate a threat with Event Threat Detection. Configure a cloud en
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/abhishekgssp1125.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Detect%20and%20Investigate%20Threats%20with%20Security%20Command%20Center/abhishekgssp1125.sh
 sudo chmod +x abhishekgssp1125.sh
 ./abhishekgssp1125.sh
 ```

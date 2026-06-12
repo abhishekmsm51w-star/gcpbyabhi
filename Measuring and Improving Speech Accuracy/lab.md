@@ -23,7 +23,7 @@ In this hands-on lab, you will learn how tobest possible quality from **Speech-t
 # Download the script
 ```
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Measuring%20and%20Improving%20Speech%20Accuracy/abhiGSP758.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Measuring%20and%20Improving%20Speech%20Accuracy/abhiGSP758.sh
 sudo chmod +x abhiGSP758.sh
 ./abhiGSP758.sh
 ```

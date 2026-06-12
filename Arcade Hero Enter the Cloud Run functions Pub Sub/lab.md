@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Arcade%20Hero%20Enter%20the%20Cloud%20Run%20functions%20Pub%20Sub/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Arcade%20Hero%20Enter%20the%20Cloud%20Run%20functions%20Pub%20Sub/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 

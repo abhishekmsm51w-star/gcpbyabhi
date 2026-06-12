@@ -70,15 +70,15 @@ cd tfinfra
 
 # Download Terraform files
 echo "${YELLOW}${BOLD}Downloading Terraform configuration files...${RESET}"
-wget -q https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
-wget -q https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/terraform.tfstate
-wget -q https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
-wget -q https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
+wget -q https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/provider.tf
+wget -q https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/terraform.tfstate
+wget -q https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/variables.tf
+wget -q https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/mynetwork.tf
 
 # Create instance directory and download main.tf
 mkdir -p instance
 cd instance
-wget -q https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/main.tf
+wget -q https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Automating%20the%20Deployment%20of%20Infrastructure%20Using%20Terraform/main.tf
 cd ..
 
 # Initialize Terraform

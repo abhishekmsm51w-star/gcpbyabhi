@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Securing%20Compute%20Engine%20Applications%20and%20Resources%20using%20Chrome%20Enterprise%20Premium/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Securing%20Compute%20Engine%20Applications%20and%20Resources%20using%20Chrome%20Enterprise%20Premium/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

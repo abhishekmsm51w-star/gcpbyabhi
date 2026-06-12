@@ -23,7 +23,7 @@ gcloud compute ssh document-ai-dev --project=$DEVSHELL_PROJECT_ID --zone=$ZONE -
 
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20and%20Test%20a%20Document%20AI%20Processor/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20and%20Test%20a%20Document%20AI%20Processor/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

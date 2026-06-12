@@ -192,7 +192,7 @@ curl http://[LB_IP]:110
 If required, execute the helper script:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Global%20and%20Regional%20Load%20Balancing%20Solutions%3A%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20Global%20and%20Regional%20Load%20Balancing%20Solutions-%20Challenge%20Lab/drabhishek.sh
 
 sudo chmod +x drabhishek.sh
 

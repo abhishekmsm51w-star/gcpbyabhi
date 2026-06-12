@@ -23,7 +23,7 @@
 ```
 rm gsp524-challenge-v1.0.0.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Analyze%20and%20Reason%20on%20Multimodal%20Data%20with%20Gemini%20Challenge%20Lab/gsp524-challenge-v1.0.0.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Analyze%20and%20Reason%20on%20Multimodal%20Data%20with%20Gemini%20Challenge%20Lab/gsp524-challenge-v1.0.0.ipynb
 ```
 
 

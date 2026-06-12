@@ -14,7 +14,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Extracting%20Text%20from%20the%20Images%20using%20the%20Google%20Cloud%20Vision%20API/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Extracting%20Text%20from%20the%20Images%20using%20the%20Google%20Cloud%20Vision%20API/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

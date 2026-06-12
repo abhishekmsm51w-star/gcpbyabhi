@@ -45,7 +45,7 @@ The gcloud command line tool and cloud shell are essential tools for any google 
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Getting%20Started%20with%20Cloud%20Shell%20and%20gcloud/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Getting%20Started%20with%20Cloud%20Shell%20and%20gcloud/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

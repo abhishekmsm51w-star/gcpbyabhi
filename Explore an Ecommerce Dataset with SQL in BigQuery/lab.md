@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Explore%20an%20Ecommerce%20Dataset%20with%20SQL%20in%20BigQuery/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Explore%20an%20Ecommerce%20Dataset%20with%20SQL%20in%20BigQuery/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

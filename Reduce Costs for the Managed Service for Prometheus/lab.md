@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

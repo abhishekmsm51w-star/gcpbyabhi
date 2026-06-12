@@ -21,7 +21,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Run%20Functions%3A%20Qwikstart/abhishek1.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Run%20Functions-%20Qwikstart/abhishek1.sh
 sudo chmod +x abhishek1.sh
 ./abhishek1.sh
 ```

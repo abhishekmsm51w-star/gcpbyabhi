@@ -31,7 +31,7 @@ This should resolve most issues related to applying aspects on BigLake tables.
 # If Following the same video then continue till the end 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Enrich%20Metadata%20and%20Discovery%20of%20BigLake%20Data%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Enrich%20Metadata%20and%20Discovery%20of%20BigLake%20Data%20Challenge%20Lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

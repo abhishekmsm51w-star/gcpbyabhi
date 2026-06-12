@@ -11,7 +11,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Get%20Started%20with%20Security%20Command%20Center/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Get%20Started%20with%20Security%20Command%20Center/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

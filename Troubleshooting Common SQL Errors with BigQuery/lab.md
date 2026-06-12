@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Troubleshooting%20Common%20SQL%20Errors%20with%20BigQuery/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Troubleshooting%20Common%20SQL%20Errors%20with%20BigQuery/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

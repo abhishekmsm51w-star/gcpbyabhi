@@ -17,7 +17,7 @@ Test the internal load balancer, and call it from a public facing web server
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Internal%20Load%20Balancer/abhishekintbal.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Internal%20Load%20Balancer/abhishekintbal.sh
 sudo chmod +x abhishekintbal.sh
 ./abhishekintbal.sh
 ```

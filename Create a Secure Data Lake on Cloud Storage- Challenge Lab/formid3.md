@@ -14,7 +14,7 @@
 export ZONE=
 ```
 `````
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage%3A%20Challenge%20Lab/abbhishek3.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20a%20Secure%20Data%20Lake%20on%20Cloud%20Storage-%20Challenge%20Lab/abbhishek3.sh
 sudo chmod +x abbhishek3.sh
 ./abbhishek3.sh
 `````

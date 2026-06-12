@@ -10,7 +10,7 @@
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Ab12/Deploy%20Kubernetes%20Load%20Balancer%20Service%20with%20Terraform/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Ab12/Deploy%20Kubernetes%20Load%20Balancer%20Service%20with%20Terraform/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 

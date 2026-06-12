@@ -16,7 +16,7 @@ export ZONE=$(gcloud compute instances list --filter="name=centos-clean" --forma
 gcloud compute ssh centos-clean --zone=$ZONE --quiet
 ```
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Configuring%20IAM%20Permissions%20with%20gCloud%20-%20Azure/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

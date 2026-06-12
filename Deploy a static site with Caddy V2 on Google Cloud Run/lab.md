@@ -14,7 +14,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Deploy%20a%20static%20site%20with%20Caddy%20V2%20on%20Google%20Cloud%20Run/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Deploy%20a%20static%20site%20with%20Caddy%20V2%20on%20Google%20Cloud%20Run/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

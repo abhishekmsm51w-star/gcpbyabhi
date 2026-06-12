@@ -83,9 +83,9 @@ echo
 # Download required scripts
 echo "${YELLOW_TEXT}${BOLD_TEXT}📄 Downloading required scripts...${RESET_FORMAT}"
 echo "${CYAN_TEXT}Downloading importTestData.js...${RESET_FORMAT}"
-(curl -s https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/importTestData.js > importTestData.js) & show_spinner
+(curl -s https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/importTestData.js > importTestData.js) & show_spinner
 echo "${CYAN_TEXT}Downloading createTestData.js...${RESET_FORMAT}"
-(curl -s https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/createTestData.js > createTestData.js) & show_spinner
+(curl -s https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/createTestData.js > createTestData.js) & show_spinner
 echo "${GREEN_TEXT}✅ Scripts downloaded successfully!${RESET_FORMAT}"
 echo
 

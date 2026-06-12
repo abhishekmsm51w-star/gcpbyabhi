@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Hardening%20Default%20GKE%20Cluster%20Configurations/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Hardening%20Default%20GKE%20Cluster%20Configurations/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

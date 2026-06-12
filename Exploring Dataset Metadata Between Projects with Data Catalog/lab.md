@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Exploring%20Dataset%20Metadata%20Between%20Projects%20with%20Data%20Catalog/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Exploring%20Dataset%20Metadata%20Between%20Projects%20with%20Data%20Catalog/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

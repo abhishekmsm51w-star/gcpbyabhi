@@ -13,12 +13,12 @@
 export ZONE=
 ```
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20AWS/Abhishek1.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20AWS/Abhishek1.sh
 sudo chmod +x Abhishek1.sh
 ./Abhishek1.sh
 ```
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20AWS/abhishek2.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Hosting%20a%20Web%20App%20on%20Google%20Cloud%20Using%20Compute%20Engine%20AWS/abhishek2.sh
 sudo chmod +x abhishek2.sh
 ./abhishek2.sh
 ```

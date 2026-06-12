@@ -6,14 +6,14 @@
 
 ### 1. Data Sharing Partner Project
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/ABHISHEK1.SH
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/ABHISHEK1.SH
 chmod +x ABHISHEK1.SH
 ./ABHISHEK1.SH
 ```
 ### Data Publisher Project Console
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/ABHISHEK2.SH
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/ABHISHEK2.SH
 sudo chmod +x ABHISHEK2.SH
 ./ABHISHEK2.SH
 
@@ -22,7 +22,7 @@ sudo chmod +x ABHISHEK2.SH
 ### Customer (Data Twin) Project Console
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/abhishek3.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Consuming%20Customer%20Specific%20Datasets%20from%20Data%20Sharing%20Partners%20using%20BigQuery/abhishek3.sh
 sudo chmod +x abhishek3.sh
 ./abhishek3.sh
 ```

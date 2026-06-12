@@ -27,7 +27,7 @@ In this lab, you will learn how to perform the following tasks:
 Run the following commands to download and execute the setup script:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Setting%20Up%20Cost%20Control%20with%20Quota/ABHISHEKGSP651.SH
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Setting%20Up%20Cost%20Control%20with%20Quota/ABHISHEKGSP651.SH
 sudo chmod +x ABHISHEKGSP651.SH
 
 ./ABHISHEKGSP651.SH

@@ -22,7 +22,7 @@
 <p><strong>☁️ Run in Cloud Shell:</strong></p>
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20a%20Data%20Transformation%20Pipeline%20with%20Cloud%20Dataprep/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20a%20Data%20Transformation%20Pipeline%20with%20Cloud%20Dataprep/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

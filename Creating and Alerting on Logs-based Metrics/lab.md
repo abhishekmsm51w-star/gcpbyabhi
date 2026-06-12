@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20and%20Alerting%20on%20Logs-based%20Metrics/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20and%20Alerting%20on%20Logs-based%20Metrics/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

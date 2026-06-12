@@ -23,7 +23,7 @@ git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 ```
 rm classifying_images_with_a_nn_and_dnn_model.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Classifying%20Images%20with%20a%20NN%20and%20DNN%20Model/classifying_images_with_a_nn_and_dnn_model.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Classifying%20Images%20with%20a%20NN%20and%20DNN%20Model/classifying_images_with_a_nn_and_dnn_model.ipynb
 ```
 
 

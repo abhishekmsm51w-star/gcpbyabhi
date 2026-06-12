@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/SingleStore%20on%20Google%20Cloud/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/SingleStore%20on%20Google%20Cloud/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

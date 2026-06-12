@@ -188,8 +188,8 @@ echo
 
 # Upload Website Files
 echo "${BLUE}${BOLD}Step 8: Uploading Website Files${RESET}"
-curl -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/index.html
-curl -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/error.html
+curl -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/index.html
+curl -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/error.html
 gsutil cp *.html gs://$DEVSHELL_PROJECT_ID
 echo "${GREEN}✓ Website files uploaded${RESET}"
 echo

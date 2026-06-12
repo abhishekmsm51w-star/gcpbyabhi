@@ -18,7 +18,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Distributed%20Load%20Testing%20Using%20Kubernetes/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Distributed%20Load%20Testing%20Using%20Kubernetes/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

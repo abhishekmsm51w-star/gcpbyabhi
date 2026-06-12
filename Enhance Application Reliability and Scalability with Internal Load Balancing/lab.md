@@ -14,7 +14,7 @@
 ```bash
 
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Enhance%20Application%20Reliability%20and%20Scalability%20with%20Internal%20Load%20Balancing/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Enhance%20Application%20Reliability%20and%20Scalability%20with%20Internal%20Load%20Balancing/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

@@ -14,7 +14,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Redacting%20Critical%20Data%20with%20Sensitive%20Data%20Protection/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Redacting%20Critical%20Data%20with%20Sensitive%20Data%20Protection/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -15,7 +15,7 @@ export ZONE=
 ```
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Debugging%20Apps%20on%20Google%20Kubernetes%20Engine/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Debugging%20Apps%20on%20Google%20Kubernetes%20Engine/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

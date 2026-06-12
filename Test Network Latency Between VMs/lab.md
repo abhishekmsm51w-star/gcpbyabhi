@@ -22,7 +22,7 @@
 <p><strong>☁️ Run in Cloud Shell:</strong></p>
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Test%20Network%20Latency%20Between%20VMs/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Test%20Network%20Latency%20Between%20VMs/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

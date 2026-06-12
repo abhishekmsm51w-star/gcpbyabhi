@@ -46,9 +46,9 @@ echo "${YELLOW}${BOLD}🌄 Downloading sample images...${RESET}"
 
 # Updated GitHub URLs
 declare -A IMAGES=(
-    ["city.png"]="https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/5c7847c58b86b282a6e6598f725b6a9b1ef03e95/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/city.png"
-    ["donuts.png"]="https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/donuts.png"
-    ["selfie.png"]="https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/5c7847c58b86b282a6e6598f725b6a9b1ef03e95/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/selfie.png"
+    ["city.png"]="https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/5c7847c58b86b282a6e6598f725b6a9b1ef03e95/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/city.png"
+    ["donuts.png"]="https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/donuts.png"
+    ["selfie.png"]="https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/5c7847c58b86b282a6e6598f725b6a9b1ef03e95/Detecting%20Labels%2C%20Faces%2C%20and%20Landmarks%20in%20Images%20with%20the%20Cloud%20Vision%20API/selfie.png"
 )
 
 for filename in "${!IMAGES[@]}"; do

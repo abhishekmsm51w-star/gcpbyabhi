@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Managing%20a%20GKE%20Multi-tenant%20Cluster%20with%20Namespaces/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

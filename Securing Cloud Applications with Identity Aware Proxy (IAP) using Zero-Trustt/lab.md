@@ -14,7 +14,7 @@
 # Download the script
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Securing%20Cloud%20Applications%20with%20Identity%20Aware%20Proxy%20(IAP)%20using%20Zero-Trustt/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Securing%20Cloud%20Applications%20with%20Identity%20Aware%20Proxy%20(IAP)%20using%20Zero-Trustt/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

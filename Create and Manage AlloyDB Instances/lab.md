@@ -19,7 +19,7 @@ export ZONE=
 
 2. Run the below commands in your **First Cloud Terminal**
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20and%20Manage%20AlloyDB%20Instances/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20and%20Manage%20AlloyDB%20Instances/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

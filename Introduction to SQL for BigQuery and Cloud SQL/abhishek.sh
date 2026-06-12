@@ -52,12 +52,12 @@ gsutil mb gs://$DEVSHELL_PROJECT_ID || {
 
 # Download CSV files from new source
 echo "${BLUE}${BOLD}Downloading dataset files...${RESET}"
-curl -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/start_station_name.csv || {
+curl -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/start_station_name.csv || {
     echo "${RED}Failed to download start_station_name.csv${RESET}"
     exit 1
 }
 
-curl -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/end_station_name.csv || {
+curl -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introduction%20to%20SQL%20for%20BigQuery%20and%20Cloud%20SQL/end_station_name.csv || {
     echo "${RED}Failed to download end_station_name.csv${RESET}"
     exit 1
 }

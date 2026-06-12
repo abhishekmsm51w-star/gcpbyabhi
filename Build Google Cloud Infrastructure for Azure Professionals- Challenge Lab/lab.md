@@ -13,7 +13,7 @@
 
 
 ```
-curl -LO http://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20Google%20Cloud%20Infrastructure%20for%20Azure%20Professionals%3A%20Challenge%20Lab/abhishek.sh
+curl -LO http://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20Google%20Cloud%20Infrastructure%20for%20Azure%20Professionals-%20Challenge%20Lab/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

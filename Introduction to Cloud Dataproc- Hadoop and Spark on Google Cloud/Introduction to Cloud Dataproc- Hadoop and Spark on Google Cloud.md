@@ -17,7 +17,7 @@ How to shut down your cluster
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introduction%20to%20Cloud%20Dataproc%3A%20Hadoop%20and%20Spark%20on%20Google%20Cloud/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introduction%20to%20Cloud%20Dataproc-%20Hadoop%20and%20Spark%20on%20Google%20Cloud/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

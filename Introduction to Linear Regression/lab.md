@@ -23,7 +23,7 @@ Start by accessing the Workbench from the following link:
 ```
 rm intro_linear_regression.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introduction%20to%20Linear%20Regression/intro_linear_regression.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introduction%20to%20Linear%20Regression/intro_linear_regression.ipynb
 ```
 
 

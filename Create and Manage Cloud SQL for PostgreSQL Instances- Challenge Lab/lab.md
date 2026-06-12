@@ -143,7 +143,7 @@ GRANT SELECT ON pglogical.subscription TO migration_admin;
 
 ## For Database Migration: Click [Here](https://console.cloud.google.com/dbmigration/migrations?)
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20and%20Manage%20Cloud%20SQL%20for%20PostgreSQL%20Instances%3A%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20and%20Manage%20Cloud%20SQL%20for%20PostgreSQL%20Instances-%20Challenge%20Lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

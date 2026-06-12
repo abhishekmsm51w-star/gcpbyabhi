@@ -16,7 +16,7 @@
 ```bash
 
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/App%20Engine%3A%20Qwik%20Start%20-%20Go/abhishekGSP070.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/App%20Engine-%20Qwik%20Start%20-%20Go/abhishekGSP070.sh
 sudo chmod +x abhishekGSP070.sh
 ./abhishekGSP070.sh
 ```

@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20an%20application%20to%20send%20Chat%20Prompts%20using%20the%20Gemini%20model/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20an%20application%20to%20send%20Chat%20Prompts%20using%20the%20Gemini%20model/abhishek.sh
 source abhishek.sh
 ```
 ### Congratulations !!!!

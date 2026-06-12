@@ -25,7 +25,7 @@ In this hands-on lab, In this lab you use the Cloud Translation API to do the fo
 # Download the script
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Translate%20Text%20with%20the%20Cloud%20Translation%20APII/abhiGSP049.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Translate%20Text%20with%20the%20Cloud%20Translation%20APII/abhiGSP049.sh
 
 sudo chmod +x abhiGSP049.sh
 

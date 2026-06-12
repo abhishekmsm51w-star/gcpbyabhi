@@ -12,7 +12,7 @@
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Using%20Google%20Cloud%20Services%20with%20Apigee%20X/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Using%20Google%20Cloud%20Services%20with%20Apigee%20X/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

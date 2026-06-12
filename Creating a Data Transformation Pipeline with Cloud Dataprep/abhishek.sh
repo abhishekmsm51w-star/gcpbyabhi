@@ -53,7 +53,7 @@ echo "${YELLOW_TEXT}${BOLD_TEXT}OPEN DATAPREP FROM THE FOLLOWING LINK:${RESET_FO
 echo "${BLUE_TEXT}${BOLD_TEXT}https://console.cloud.google.com/dataprep${RESET_FORMAT}"
 echo
 echo "${YELLOW_TEXT}${BOLD_TEXT}DOWNLOAD FILE FROM THE FOLLOWING LINK:${RESET_FORMAT}"
-echo "${BLUE_TEXT}${BOLD_TEXT}https://github.com/Itsabhishek7py/GoogleCloudSkillsboost/raw/refs/heads/main/Creating%20a%20Data%20Transformation%20Pipeline%20with%20Cloud%20Dataprep/flow_Ecommerce_Analytics_Pipeline.zip${RESET_FORMAT}"
+echo "${BLUE_TEXT}${BOLD_TEXT}https://github.com/abhishekmsm51w-star/gcpbyabhi/raw/refs/heads/main/Creating%20a%20Data%20Transformation%20Pipeline%20with%20Cloud%20Dataprep/flow_Ecommerce_Analytics_Pipeline.zip${RESET_FORMAT}"
 
 echo
 echo "${MAGENTA_TEXT}${BOLD_TEXT}DO LIKE THE VIDEO & , SUBSCRIBE TO DR. ABHISHEK! 👇${RESET_FORMAT}"

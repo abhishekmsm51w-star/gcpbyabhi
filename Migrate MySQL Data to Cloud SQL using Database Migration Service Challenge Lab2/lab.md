@@ -19,7 +19,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 ### Task 1 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Migrate%20MySQL%20Data%20to%20Cloud%20SQL%20using%20Database%20Migration%20Service%20Challenge%20Lab2/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Migrate%20MySQL%20Data%20to%20Cloud%20SQL%20using%20Database%20Migration%20Service%20Challenge%20Lab2/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

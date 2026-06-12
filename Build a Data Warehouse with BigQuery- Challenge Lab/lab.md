@@ -13,7 +13,7 @@
 <img width="505" height="486" alt="image" src="https://github.com/user-attachments/assets/98da5a3f-1ae3-4126-be12-be4fa5214dfe" />
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20Data%20Warehouse%20with%20BigQuery%3A%20Challenge%20Lab/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20a%20Data%20Warehouse%20with%20BigQuery-%20Challenge%20Lab/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

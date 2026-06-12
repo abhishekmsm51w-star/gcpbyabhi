@@ -16,7 +16,7 @@ export ZONE_2=
 ```
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Building%20a%20High%20throughput%20VPN/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Building%20a%20High%20throughput%20VPN/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

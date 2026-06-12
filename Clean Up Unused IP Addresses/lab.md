@@ -20,7 +20,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Clean%20Up%20Unused%20IP%20Addresses/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Clean%20Up%20Unused%20IP%20Addresses/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 

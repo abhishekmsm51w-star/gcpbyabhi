@@ -253,11 +253,11 @@ echo
 echo "${BLUE}${BOLD}Step 8: Uploading Website Files${RESET}"
 BUCKET_NAME=$(terraform output -raw bucket_name 2>/dev/null || echo "$DEVSHELL_PROJECT_ID-website")
 
-curl -s -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/index.html || {
+curl -s -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/index.html || {
   echo "${YELLOW}⚠️ Failed to download index.html${RESET}"
 }
 
-curl -s -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/error.html || {
+curl -s -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/error.html || {
   echo "${YELLOW}⚠️ Failed to download error.html${RESET}"
 }
 

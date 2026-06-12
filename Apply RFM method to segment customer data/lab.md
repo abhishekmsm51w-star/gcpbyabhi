@@ -20,7 +20,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Apply%20RFM%20method%20to%20segment%20customer%20data/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Apply%20RFM%20method%20to%20segment%20customer%20data/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

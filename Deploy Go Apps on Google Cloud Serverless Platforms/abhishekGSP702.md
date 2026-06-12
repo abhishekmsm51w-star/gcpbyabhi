@@ -22,7 +22,7 @@ Test the app on the each of the platforms
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Deploy%20Go%20Apps%20on%20Google%20Cloud%20Serverless%20Platforms/abhishekGSP702.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Deploy%20Go%20Apps%20on%20Google%20Cloud%20Serverless%20Platforms/abhishekGSP702.sh
 sudo chmod +x abhishekGSP702.sh
 ./abhishekGSP702.sh
 ```

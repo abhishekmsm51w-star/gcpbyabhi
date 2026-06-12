@@ -18,7 +18,7 @@
 
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Compute%20Engine%3A%20Qwik%20Start%20-%20Windows/abhishekGSP093.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Compute%20Engine-%20Qwik%20Start%20-%20Windows/abhishekGSP093.sh
 sudo chmod +x abhishekGSP093.sh
 ./abhishekGSP093.sh
 ```

@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

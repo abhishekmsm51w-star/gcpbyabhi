@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20a%20RAG%20Application%20with%20BigQuery/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20a%20RAG%20Application%20with%20BigQuery/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

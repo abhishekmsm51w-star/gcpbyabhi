@@ -18,7 +18,7 @@ Redact sensitive data from text content
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Data%20Loss%20Prevention%20API%3A%20Qwik%20Start/abhishekGSP107.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Data%20Loss%20Prevention%20API-%20Qwik%20Start/abhishekGSP107.sh
 sudo chmod +x abhishekGSP107.sh
 ./abhishekGSP107.sh
 ```

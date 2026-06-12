@@ -22,7 +22,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20DNS%3A%20Traffic%20Steering%20using%20Geolocation%20Policy/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20DNS-%20Traffic%20Steering%20using%20Geolocation%20Policy/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 

@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Stream%20Processing%20with%20Cloud%20PubSub%20and%20Dataflow%3A%20Qwik%20Start/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Stream%20Processing%20with%20Cloud%20PubSub%20and%20Dataflow-%20Qwik%20Start/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

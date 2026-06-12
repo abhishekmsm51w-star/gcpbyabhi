@@ -19,7 +19,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/De-identify%20DICOM%20Data%20with%20the%20Healthcare%20API/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/De-identify%20DICOM%20Data%20with%20the%20Healthcare%20API/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

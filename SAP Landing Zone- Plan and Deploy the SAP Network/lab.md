@@ -47,7 +47,7 @@ We gratefully acknowledge Google's learning resources that make cloud education 
 </div>
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/SAP%20Landing%20Zone%3A%20Plan%20and%20Deploy%20the%20SAP%20Network/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/SAP%20Landing%20Zone-%20Plan%20and%20Deploy%20the%20SAP%20Network/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -19,7 +19,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 #### video pura dekhna nahi to kahi rona na pad jaye :D
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Distributed%20Image%20Processing%20in%20Cloud%20Dataproc/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Distributed%20Image%20Processing%20in%20Cloud%20Dataproc/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

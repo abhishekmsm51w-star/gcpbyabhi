@@ -224,7 +224,7 @@ fi
 
 # Step 8: Download OpenAPI specification
 echo "${MAGENTA}${BOLD}Downloading OpenAPI Specification${RESET}"
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Publishing%20APIs%20with%20Apigee%20X/simplebank-spec.yaml
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Publishing%20APIs%20with%20Apigee%20X/simplebank-spec.yaml
 
 # Check if download was successful
 if [ $? -eq 0 ]; then

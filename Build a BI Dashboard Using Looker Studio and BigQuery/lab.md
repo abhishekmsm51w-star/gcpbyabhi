@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20a%20BI%20Dashboard%20Using%20Looker%20Studio%20and%20BigQuery/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20a%20BI%20Dashboard%20Using%20Looker%20Studio%20and%20BigQuery/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

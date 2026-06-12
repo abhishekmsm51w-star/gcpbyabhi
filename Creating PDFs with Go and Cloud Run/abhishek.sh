@@ -55,7 +55,7 @@ echo "${YELLOW_TEXT}${BOLD_TEXT}Navigating to the lab directory...${RESET_FORMAT
 (cd pet-theory/lab03) & spinner
 
 echo "${YELLOW_TEXT}${BOLD_TEXT}Downloading the server.go file...${RESET_FORMAT}"
-(curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20PDFs%20with%20Go%20and%20Cloud%20Run/server.go) & spinner
+(curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20PDFs%20with%20Go%20and%20Cloud%20Run/server.go) & spinner
 
 echo "${YELLOW_TEXT}${BOLD_TEXT}Building the Go application...${RESET_FORMAT}"
 (go build -o server) & spinner

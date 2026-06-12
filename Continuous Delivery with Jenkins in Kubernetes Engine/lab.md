@@ -46,7 +46,7 @@ We gratefully acknowledge Google's learning resources that make cloud education 
 </div>
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/abhishek1.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/abhishek1.sh
 sudo chmod +x abhishek1.sh
 ./abhishek1.sh
 
@@ -54,7 +54,7 @@ sudo chmod +x abhishek1.sh
 <p style="font-size: 15px; color: #555;"><i>👉 Now Perfrom Task 2 Manually as show in video .</i></p>
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/abhishek2.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/abhishek2.sh
 sudo chmod +x abhishek2.sh
 ./abhishek2.sh
 ```

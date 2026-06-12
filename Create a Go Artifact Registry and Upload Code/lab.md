@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20a%20Go%20Artifact%20Registry%20and%20Upload%20Code/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20a%20Go%20Artifact%20Registry%20and%20Upload%20Code/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

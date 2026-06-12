@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Importing%20Data%20to%20a%20Firestore%20Database/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -48,7 +48,7 @@ We gratefully acknowledge Google's learning resources that make cloud education 
 </div>
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault1/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20Dynamic%20Secrets%20for%20Google%20Cloud%20with%20Vault1/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

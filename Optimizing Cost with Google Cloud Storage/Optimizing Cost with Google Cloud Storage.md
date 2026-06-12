@@ -19,7 +19,7 @@ Deploy a Cloud Run function to migrate the idle bucket to a less expensive stora
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Optimizing%20Cost%20with%20Google%20Cloud%20Storage/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Optimizing%20Cost%20with%20Google%20Cloud%20Storage/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

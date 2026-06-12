@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Creating%20Cross%20region%20Load%20Balancing/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Creating%20Cross%20region%20Load%20Balancing/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

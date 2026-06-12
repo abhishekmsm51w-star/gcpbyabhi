@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Predict%20Taxi%20Fare%20with%20a%20BigQuery%20ML%20Forecasting%20Model/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Predict%20Taxi%20Fare%20with%20a%20BigQuery%20ML%20Forecasting%20Model/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

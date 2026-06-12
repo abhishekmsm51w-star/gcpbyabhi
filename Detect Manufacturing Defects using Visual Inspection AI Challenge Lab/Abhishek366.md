@@ -35,7 +35,7 @@ Deploy and test a solution that accurately classifies mobile phones as:
 # Download the script
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Detect%20Manufacturing%20Defects%20using%20Visual%20Inspection%20AI%20Challenge%20Lab/ABHISHEKGSP366.SH
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Detect%20Manufacturing%20Defects%20using%20Visual%20Inspection%20AI%20Challenge%20Lab/ABHISHEKGSP366.SH
 sudo chmod +x ABHISHEKGSP366.SH
 ./ABHISHEKGSP366.SH
 ```

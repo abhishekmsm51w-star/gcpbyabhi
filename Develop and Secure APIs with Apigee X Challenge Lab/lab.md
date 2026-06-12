@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Develop%20and%20Secure%20APIs%20with%20Apigee%20X%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Develop%20and%20Secure%20APIs%20with%20Apigee%20X%20Challenge%20Lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```
@@ -22,7 +22,7 @@ sudo chmod +x drabhishek.sh
 - Base Path: **/translate/v1**
 
 ---
-### 💡 Open this link and download the file [Click Here](https://github.com/Itsabhishek7py/GoogleCloudSkillsboost/blob/main/Develop%20and%20Secure%20APIs%20with%20Apigee%20X%20Challenge%20Lab/translate-v1.zip)
+### 💡 Open this link and download the file [Click Here](https://github.com/abhishekmsm51w-star/gcpbyabhi/blob/main/Develop%20and%20Secure%20APIs%20with%20Apigee%20X%20Challenge%20Lab/translate-v1.zip)
 ---
 
 - App Name: **translate-app**

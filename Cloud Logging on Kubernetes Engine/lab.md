@@ -22,7 +22,7 @@ If you found this helpful, please **Subscribe** to [Dr Abhishek](https://www.you
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Logging%20on%20Kubernetes%20Engine/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Logging%20on%20Kubernetes%20Engine/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

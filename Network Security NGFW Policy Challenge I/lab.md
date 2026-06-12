@@ -10,7 +10,7 @@
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Network%20Security%20NGFW%20Policy%20Challenge%20I/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Network%20Security%20NGFW%20Policy%20Challenge%20I/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

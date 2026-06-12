@@ -31,7 +31,7 @@ gcloud compute ssh linux-instance --project=$DEVSHELL_PROJECT_ID --zone=$ZONE --
 
 Once connected to the VM, download and run the setup script:
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Speech-to-Text%20API%3A%20Qwik%20Start/abhishekGSP119.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Speech-to-Text%20API-%20Qwik%20Start/abhishekGSP119.sh
 sudo chmod +x abhishekGSP119.sh
 ./abhishekGSP119.sh
 ```

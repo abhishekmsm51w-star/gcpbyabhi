@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Connecting%20Cloud%20Networks%20with%20NCC%3A%20Challenge%20Lab/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Connecting%20Cloud%20Networks%20with%20NCC-%20Challenge%20Lab/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Build%20and%20Execute%20MySQL%20and%20PostgreSQL%20to%20Data%20Catalog%20Connectors/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Build%20and%20Execute%20MySQL%20and%20PostgreSQL%20to%20Data%20Catalog%20Connectors/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

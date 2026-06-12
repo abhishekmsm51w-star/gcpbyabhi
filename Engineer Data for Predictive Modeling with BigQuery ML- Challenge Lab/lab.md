@@ -22,7 +22,7 @@
 <p><strong>☁️ Run in Cloud Shell:</strong></p>
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Engineer%20Data%20for%20Predictive%20Modeling%20with%20BigQuery%20ML%3A%20Challenge%20Lab/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Engineer%20Data%20for%20Predictive%20Modeling%20with%20BigQuery%20ML-%20Challenge%20Lab/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

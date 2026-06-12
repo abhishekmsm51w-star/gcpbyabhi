@@ -11,9 +11,9 @@ cd continuous-deployment-on-kubernetes/sample-app
 git checkout -b new-feature
 rm Jenkinsfile html.go main.go
 
-wget https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/Jenkinsfile
-wget https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/html.go
-wget https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/main.go
+wget https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/Jenkinsfile
+wget https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/html.go
+wget https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Continuous%20Delivery%20with%20Jenkins%20in%20Kubernetes%20Engine/main.go
 
 
 sed -i "s/qwiklabs-gcp-01-2848c53eb4b6/$PROJECT_ID/g" Jenkinsfile

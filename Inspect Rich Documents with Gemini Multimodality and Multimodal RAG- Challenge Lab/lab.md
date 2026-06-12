@@ -14,7 +14,7 @@
 ```
 rm inspect_rich_documents_w_gemini_multimodality_and_multimodal_rag.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Inspect%20Rich%20Documents%20with%20Gemini%20Multimodality%20and%20Multimodal%20RAG%3A%20Challenge%20Lab/inspect_rich_documents_w_gemini_multimodality_and_multimodal_rag.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Inspect%20Rich%20Documents%20with%20Gemini%20Multimodality%20and%20Multimodal%20RAG-%20Challenge%20Lab/inspect_rich_documents_w_gemini_multimodality_and_multimodal_rag.ipynb
 
 ```
 

@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Interact%20with%20Terraform%20Modules/abhishekq.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Interact%20with%20Terraform%20Modules/abhishekq.sh
 sudo chmod +x abhishekq.sh
 ./abhishekq.sh
 ```

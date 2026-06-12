@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Tagging%20Dataplex%20Assets/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Tagging%20Dataplex%20Assets/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

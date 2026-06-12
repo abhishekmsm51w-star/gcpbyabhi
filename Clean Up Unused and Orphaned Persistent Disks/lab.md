@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Clean%20Up%20Unused%20and%20Orphaned%20Persistent%20Disks/drabhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Clean%20Up%20Unused%20and%20Orphaned%20Persistent%20Disks/drabhishek.sh
 sudo chmod +x drabhishek.sh
 ./drabhishek.sh
 ```

@@ -21,7 +21,7 @@ How to run a local Go HTTP server to try the function.
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/HTTP%20Google%20Cloud%20Run%20Functions%20in%20Go/ABHISHEKGSP.SH
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/HTTP%20Google%20Cloud%20Run%20Functions%20in%20Go/ABHISHEKGSP.SH
 sudo chmod +x ABHISHEKGSP.SH
 ./ABHISHEKGSP.SH
 ```

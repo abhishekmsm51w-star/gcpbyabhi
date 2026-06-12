@@ -12,7 +12,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Autoscaling%20TensorFlow%20Model%20Deployments%20with%20TF%20Serving%20and%20Kubernetes/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Autoscaling%20TensorFlow%20Model%20Deployments%20with%20TF%20Serving%20and%20Kubernetes/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

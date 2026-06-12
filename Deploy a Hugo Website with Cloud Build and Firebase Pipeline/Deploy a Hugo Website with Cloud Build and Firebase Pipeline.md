@@ -7,7 +7,7 @@
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask1.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask1.sh
 
 source abhishektask1.sh
 ```
@@ -15,7 +15,7 @@ source abhishektask1.sh
 
 ##
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask2.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask2.sh
 
 source abhishektask2.sh
 ```
@@ -23,7 +23,7 @@ source abhishektask2.sh
 [![Screenshot-2024-06-29-at-2-47-57-AM.png](https://i.postimg.cc/0NR7rmsb/Screenshot-2024-06-29-at-2-47-57-AM.png)](https://postimg.cc/k2s2p2Dm)
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask3.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Deploy%20a%20Hugo%20Website%20with%20Cloud%20Build%20and%20Firebase%20Pipeline/abhishektask3.sh
 
 source abhishektask3.sh
 ```

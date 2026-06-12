@@ -16,7 +16,7 @@
 ***To start the  session on Cloud Shell*** 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Building%20and%20Debugging%20Cloud%20Functions%20for%20Node.js/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Building%20and%20Debugging%20Cloud%20Functions%20for%20Node.js/abhishek.sh
 chmod +x abhishek.sh
 ./abhishek.sh
 

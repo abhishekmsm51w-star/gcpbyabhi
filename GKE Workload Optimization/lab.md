@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/GKE%20Workload%20Optimization/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/GKE%20Workload%20Optimization/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Create%20an%20Internal%20Load%20Balancer/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Create%20an%20Internal%20Load%20Balancer/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

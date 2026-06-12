@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Arcade%20Hero%3A%20Building%20Blocks%20Cloud%20Run%20functions%20II/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Arcade%20Hero-%20Building%20Blocks%20Cloud%20Run%20functions%20II/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

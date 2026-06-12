@@ -25,7 +25,7 @@ Start by accessing the Workbench from the following link:
 ```
 rm 3_keras_sequential_api.ipynb
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Introducing%20the%20Keras%20Sequential%20API%20on%20Vertex%20AI%20Platform/3_keras_sequential_api.ipynb
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Introducing%20the%20Keras%20Sequential%20API%20on%20Vertex%20AI%20Platform/3_keras_sequential_api.ipynb
 
 ```
 

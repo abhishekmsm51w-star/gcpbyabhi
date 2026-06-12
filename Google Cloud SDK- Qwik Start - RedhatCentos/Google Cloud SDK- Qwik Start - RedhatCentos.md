@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Google%20Cloud%20SDK%3A%20Qwik%20Start%20-%20RedhatCentos/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Google%20Cloud%20SDK-%20Qwik%20Start%20-%20RedhatCentos/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

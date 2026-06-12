@@ -13,7 +13,7 @@
 
 ```
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Identify%20Application%20Vulnerabilities%20with%20Security%20Command%20Center/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Identify%20Application%20Vulnerabilities%20with%20Security%20Command%20Center/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

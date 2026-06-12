@@ -18,7 +18,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Monitor%20an%20Apache%20Web%20Server%20using%20Ops%20Agent/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Monitor%20an%20Apache%20Web%20Server%20using%20Ops%20Agent/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

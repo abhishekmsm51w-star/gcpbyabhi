@@ -13,7 +13,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/HTTPS%20Content-Based%20Load%20Balancer%20with%20Terraform/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

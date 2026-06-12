@@ -17,7 +17,7 @@ Use the Cloud Natural Language API to extract "entities" (e.g. people, places, a
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Natural%20Language%20API%3A%20Qwik%20Start/abhishekGSP097.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Natural%20Language%20API-%20Qwik%20Start/abhishekGSP097.sh
 sudo chmod +x abhishekGSP097.sh
 ./abhishekGSP097.sh
 ```

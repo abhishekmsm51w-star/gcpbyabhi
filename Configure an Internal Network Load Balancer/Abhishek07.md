@@ -13,7 +13,7 @@ This project automates the configuration of an internal Network Load Balancer in
 
 # Download the script
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Configure%20an%20Internal%20Network%20Load%20Balancer/abhishek07.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Configure%20an%20Internal%20Network%20Load%20Balancer/abhishek07.sh
 
 # Make the script executable
 sudo chmod +x abhishek07.sh

@@ -23,7 +23,7 @@ In this hands-on lab, you will learn how to use the **Google Cloud Console** to:
 # Download the script
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Cloud%20Monitoring%3A%20Qwik%20Start/abhishekGSP089.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Cloud%20Monitoring-%20Qwik%20Start/abhishekGSP089.sh
 
 sudo chmod +x abhishekGSP089.sh
 ./abhishekGSP089.sh

@@ -12,7 +12,7 @@
 
 ```bash
 
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/App%20Dev%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/App%20Dev%20Storing%20Image%20and%20Video%20Files%20in%20Cloud%20Storage/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 

@@ -23,7 +23,7 @@ In this hands-on lab, you will learn how to use the **Google Cloud Console** to:
 # Download the script
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Weather%20Data%20in%20BigQuery/ABHISHEKGSP009.Sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Weather%20Data%20in%20BigQuery/ABHISHEKGSP009.Sh
 sudo chmod +x ABHISHEKGSP009.Sh
 ./ABHISHEKGSP009.Sh
 

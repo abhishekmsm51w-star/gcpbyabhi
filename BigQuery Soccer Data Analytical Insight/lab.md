@@ -11,7 +11,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/BigQuery%20Soccer%20Data%20Analytical%20Insight/abhishek.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/BigQuery%20Soccer%20Data%20Analytical%20Insight/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```

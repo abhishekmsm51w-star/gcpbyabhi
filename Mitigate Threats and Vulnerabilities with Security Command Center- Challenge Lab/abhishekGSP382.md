@@ -22,7 +22,7 @@ Export Cymbal Bank Findings to a Google Cloud Storage Bucket
 
 
 ```bash
-curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center%3A%20Challenge%20Lab/abhishekGSP382.sh
+curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/heads/main/Mitigate%20Threats%20and%20Vulnerabilities%20with%20Security%20Command%20Center-%20Challenge%20Lab/abhishekGSP382.sh
 sudo chmod +x abhishekGSP382.sh
 ./abhishekGSP382.sh
 ```
