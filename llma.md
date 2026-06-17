@@ -14,8 +14,8 @@ uv add -r requirements.txt
 source .venv/bin/activate
 
 terraform init
-```
-```
+
+````
 ````
 cat << EOF > bigquery_agent/.env
 GOOGLE_GENAI_USE_VERTEXAI=TRUE
