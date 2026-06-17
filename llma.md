@@ -28,7 +28,11 @@ EOF
 
 
 
-
+```
+adk eval bigquery_agent \
+--config_file_path bigquery_agent/evaluations/eval_config.json \
+set_with_conversation_scenarios
+````
 
 
 
@@ -72,7 +76,7 @@ EOF
   }
 }
 
-```
+
 ````
 
 
