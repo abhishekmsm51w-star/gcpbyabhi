@@ -16,6 +16,7 @@ source .venv/bin/activate
 terraform init
 ```
 ```
+````
 cat << EOF > bigquery_agent/.env
 GOOGLE_GENAI_USE_VERTEXAI=TRUE
 GOOGLE_CLOUD_PROJECT=qwiklabs-gcp-04-a293f091f7fc
@@ -72,7 +73,7 @@ EOF
 }
 
 ```
-
+````
 
 
 ### A
