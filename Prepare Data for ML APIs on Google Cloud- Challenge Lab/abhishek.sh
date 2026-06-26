@@ -280,7 +280,7 @@ gcloud auth login --no-launch-browser --quiet
 
 # Step 35: Create a new Dataproc cluster
 echo "${CYAN}${BOLD}Creating Dataproc cluster...${RESET}"
-gcloud dataproc clusters create awesome --enable-component-gateway --region $REGION --master-machine-type e2-standard-2 --master-boot-disk-type pd-balanced --master-boot-disk-size 100 --num-workers 2 --worker-machine-type e2-standard-2 --worker-boot-disk-type pd-balanced --worker-boot-disk-size 100 --image-version 2.2-debian12 --project $DEVSHELL_PROJECT_ID
+gcloud dataproc clusters create awesome --enable-component-gateway --region $REGION --master-machine-type n2d-standard-2 --master-boot-disk-type pd-balanced --master-boot-disk-size 100 --num-workers 2 --worker-machine-type n2d-standard-2 --worker-boot-disk-type pd-balanced --worker-boot-disk-size 100 --image-version 2.2-debian12 --project $DEVSHELL_PROJECT_ID
 
 # Step 36: Get the VM instance name
 echo "${GREEN}${BOLD}Fetching VM instance name...${RESET}"
