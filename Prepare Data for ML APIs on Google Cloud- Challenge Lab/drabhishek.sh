@@ -13,7 +13,7 @@ NO_COLOR=$'\033[0m'
 RESET_FORMAT=$'\033[0m'
 BOLD_TEXT=$'\033[1m'
 
-# Spinner function with Subscriber Message
+# Spinner function
 spinner() {
     local pid=$1
     local delay=0.1
@@ -70,13 +70,17 @@ spinner $!
 gcloud dataproc jobs submit spark --cluster=cluster-lab --region=$REGION --class=org.apache.spark.examples.SparkPageRank --jars=file:///usr/lib/spark/examples/jars/spark-examples.jar -- /data.txt &
 spinner $!
 
-# --- TASK 3: Speech-to-Text ---
-echo -e "\n${BLUE_TEXT}🚀 Task 3: Speech-to-Text...${RESET_FORMAT}"
-gcloud services enable speech.googleapis.com apikeys.googleapis.com
-gcloud alpha services api-keys create --display-name="ml-key" --api-target=service=speech.googleapis.com &
+# --- TASK 3: Speech-to-Text API ---
+echo -e "\n${YELLOW_TEXT}${BOLD_TEXT}Starting Task 3: Speech-to-Text...${RESET_FORMAT}"
+gcloud services enable apikeys.googleapis.com
+gcloud services enable speech.googleapis.com
+gcloud alpha services api-keys create --display-name="dr-api-key" --api-target=service=speech.googleapis.com &
 spinner $!
-sleep 10
-API_KEY=$(gcloud alpha services api-keys list --format="value(keyString)" --limit=1)
+echo -e "${CYAN_TEXT}Waiting for API Key propagation...${RESET_FORMAT}"
+sleep 30
+
+KEY_NAME=$(gcloud alpha services api-keys list --format="value(name)" --limit=1)
+API_KEY=$(gcloud alpha services api-keys get-key-string "$KEY_NAME" --format="value(keyString)")
 
 cat > request.json <<EOF
 { "config": { "encoding": "FLAC", "languageCode": "en-US" }, "audio": { "uri": "gs://spls/gsp323/task3.flac" } }
@@ -85,14 +89,14 @@ EOF
 curl -s -X POST -H "Content-Type: application/json" --data-binary @request.json "https://speech.googleapis.com/v1/speech:recognize?key=${API_KEY}" > result_task3.json
 gsutil -h "Content-Type: application/json" cp result_task3.json $TASK3_OUTPUT
 
-# --- TASK 4: NL API ---
-echo -e "\n${BLUE_TEXT}🚀 Task 4: Natural Language API...${RESET_FORMAT}"
-gcloud ml language analyze-entities --content="Old Norse texts portray Odin as one-eyed and long-bearded." > result_task4.json
+# --- TASK 4: Natural Language API ---
+echo -e "\n${YELLOW_TEXT}${BOLD_TEXT}Starting Task 4: Natural Language...${RESET_FORMAT}"
+gcloud ml language analyze-entities --content="Old Norse texts portray Odin as one-eyed and long-bearded, frequently wielding a spear named Gungnir and wearing a cloak and a broad hat." > result_task4.json
 gsutil -h "Content-Type: application/json" cp result_task4.json $TASK4_OUTPUT
 
 # Cleanup
 rm -f request.json result_task3.json result_task4.json
 echo -e "\n${GREEN_TEXT}${BOLD_TEXT}=================================================================="
-echo -e "                 LAB COMPLETED SUCCESSFULLY! 🎉                   "
+echo -e "                  LAB COMPLETED SUCCESSFULLY! 🎉                   "
 echo -e "           Please Subscribe: https://www.youtube.com/@drabhishek.5460"
 echo -e "==================================================================${RESET_FORMAT}"
