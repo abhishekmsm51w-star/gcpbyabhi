@@ -125,7 +125,7 @@ gcloud dataproc clusters create cluster-task2 \
     --worker-machine-type n2d-standard-2 \
     --worker-boot-disk-type pd-balanced \
     --worker-boot-disk-size 100 \
-    --image-version 2.2-debian12 \
+    --image-version 2.2-debian10 \
     --project $PROJECT_ID &
 
 pid=$!
