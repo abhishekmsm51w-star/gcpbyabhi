@@ -22,44 +22,88 @@ BG_WHITE=$(tput setab 7)
 BOLD=$(tput bold)
 RESET=$(tput sgr0)
 
+# Clear screen and display enhanced header
 clear
 
-# Display Header
-echo "${BG_MAGENTA}${BOLD}============================================${RESET}"
-echo "${BG_MAGENTA}${BOLD}   DR. ABHISHEK'S TERRAFORM MODULES LAB    ${RESET}"
-echo "${BG_MAGENTA}${BOLD}============================================${RESET}"
-echo "${BLUE}YouTube Channel: https://www.youtube.com/@drabhishek.5460${RESET}"
-echo "${CYAN}Video Tutorials: https://www.youtube.com/@drabhishek.5460/videos${RESET}"
-echo
+# =============================================
+# ███████╗████████╗ █████╗ ██████╗ ████████╗
+# ██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
+# ███████╗   ██║   ███████║██████╔╝   ██║   
+# ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   
+# ███████║   ██║   ██║  ██║██║  ██║   ██║   
+# ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
+# =============================================
+
+echo "${BG_MAGENTA}${BOLD}╔══════════════════════════════════════════════════════════╗${RESET}"
+echo "${BG_MAGENTA}${BOLD}║                                                          ║${RESET}"
+echo "${BG_MAGENTA}${BOLD}║      🚀 DR. ABHISHEK'S TERRAFORM MODULES LAB 🚀         ║${RESET}"
+echo "${BG_MAGENTA}${BOLD}║                                                          ║${RESET}"
+echo "${BG_MAGENTA}${BOLD}║   🌟 Master Terraform Modules with Real-World Examples  ║${RESET}"
+echo "${BG_MAGENTA}${BOLD}║                                                          ║${RESET}"
+echo "${BG_MAGENTA}${BOLD}╚══════════════════════════════════════════════════════════╝${RESET}"
+echo ""
+echo "${CYAN}${BOLD}📺 YouTube Channel:${RESET} ${YELLOW}https://www.youtube.com/@drabhishek.5460${RESET}"
+echo "${CYAN}${BOLD}🎬 Video Tutorials:${RESET} ${YELLOW}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${CYAN}${BOLD}📚 GitHub Repository:${RESET} ${YELLOW}https://github.com/Itsabhishek7py/GoogleCloudSkillsboost${RESET}"
+echo ""
+echo "${GREEN}${BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
+echo ""
 
 # Get Region Input
-echo "${CYAN}${BOLD}Step 1: Please enter your preferred region (e.g., us-central1):${RESET}"
-read REGION
+echo "${CYAN}${BOLD}🌍 Step 1: Please enter your preferred region (e.g., us-central1):${RESET}"
+read -p "➜ " REGION
 export REGION
-echo "${GREEN}✓ Region set to: ${REGION}${RESET}"
-echo
+echo ""
+echo "${GREEN}✅ Region set to: ${REGION}${RESET}"
+echo ""
+
+# Install Terraform
+echo "${CYAN}${BOLD}🔧 Step 2: Installing Terraform${RESET}"
+cat <<'EOF' > ~/.customize_environment
+# Set up HashiCorp repository and install Terraform
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install -y terraform
+EOF
+bash ~/.customize_environment || {
+    echo "${RED}❌ Terraform installation failed${RESET}"
+    exit 1
+}
+echo "${GREEN}✅ Terraform installed successfully${RESET}"
+echo ""
+
+# Verify Terraform Installation
+echo "${CYAN}${BOLD}🔍 Step 3: Verifying Terraform Installation${RESET}"
+terraform version || {
+    echo "${RED}❌ Terraform verification failed${RESET}"
+    exit 1
+}
+echo "${GREEN}✅ Terraform verified successfully${RESET}"
+echo ""
 
 # Start Execution
-echo "${BG_MAGENTA}${BOLD}Starting Terraform Modules Deployment${RESET}"
-echo
+echo "${BG_MAGENTA}${BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
+echo "${BG_MAGENTA}${BOLD}  🏗️  STARTING TERRAFORM MODULES DEPLOYMENT PIPELINE  🏗️${RESET}"
+echo "${BG_MAGENTA}${BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
+echo ""
 
 # Clone Terraform Network Module
-echo "${BLUE}${BOLD}Step 2: Cloning Terraform Network Module${RESET}"
+echo "${BLUE}${BOLD}📦 Step 4: Cloning Terraform Network Module${RESET}"
 if [ -d "terraform-google-network" ]; then
-  echo "${YELLOW}✓ Directory already exists, skipping clone${RESET}"
+  echo "${YELLOW}⚠️  Directory already exists, skipping clone${RESET}"
 else
   git clone https://github.com/terraform-google-modules/terraform-google-network || {
-    echo "${RED}✗ Failed to clone repository${RESET}"
+    echo "${RED}❌ Failed to clone repository${RESET}"
     exit 1
   }
 fi
 cd terraform-google-network
 git checkout tags/v6.0.1 -b v6.0.1
-echo "${GREEN}✓ Network module ready${RESET}"
-echo
+echo "${GREEN}✅ Network module ready${RESET}"
+echo ""
 
 # Configure Simple Project Example
-echo "${BLUE}${BOLD}Step 3: Configuring VPC Network Example${RESET}"
+echo "${BLUE}${BOLD}🔧 Step 5: Configuring VPC Network Example${RESET}"
 cd ~/terraform-google-network/examples/simple_project
 
 # Create configuration files
@@ -111,31 +155,31 @@ module "test-vpc-module" {
 EOF
 
 # Initialize and Apply Terraform
-echo "${BLUE}${BOLD}Step 4: Deploying VPC Network${RESET}"
+echo "${BLUE}${BOLD}🚀 Step 6: Deploying VPC Network${RESET}"
 terraform init || {
-  echo "${RED}✗ Terraform init failed${RESET}"
+  echo "${RED}❌ Terraform init failed${RESET}"
   exit 1
 }
 
 terraform apply -auto-approve || {
-  echo "${RED}✗ Terraform apply failed${RESET}"
+  echo "${RED}❌ Terraform apply failed${RESET}"
   exit 1
 }
-echo "${GREEN}✓ VPC network deployed${RESET}"
-echo
+echo "${GREEN}✅ VPC network deployed${RESET}"
+echo ""
 
 # Clean up VPC
-echo "${BLUE}${BOLD}Step 5: Cleaning Up VPC Resources${RESET}"
+echo "${BLUE}${BOLD}🧹 Step 7: Cleaning Up VPC Resources${RESET}"
 terraform destroy -auto-approve || {
-  echo "${YELLOW}⚠️ Terraform destroy failed, attempting to continue${RESET}"
+  echo "${YELLOW}⚠️  Terraform destroy failed, attempting to continue${RESET}"
 }
 cd ~
 rm -rf terraform-google-network
-echo "${GREEN}✓ VPC resources cleaned up${RESET}"
-echo
+echo "${GREEN}✅ VPC resources cleaned up${RESET}"
+echo ""
 
 # Create GCS Static Website Module
-echo "${BLUE}${BOLD}Step 6: Creating GCS Static Website Module${RESET}"
+echo "${BLUE}${BOLD}📁 Step 8: Creating GCS Static Website Module${RESET}"
 mkdir -p modules/gcs-static-website-bucket
 cd modules/gcs-static-website-bucket
 
@@ -232,55 +276,68 @@ variable "project_id" {
 EOF
 
 # Deploy GCS Bucket with error handling
-echo "${BLUE}${BOLD}Step 7: Deploying GCS Bucket${RESET}"
+echo "${BLUE}${BOLD}🚀 Step 9: Deploying GCS Bucket${RESET}"
 terraform init || {
-  echo "${RED}✗ Terraform init failed${RESET}"
+  echo "${RED}❌ Terraform init failed${RESET}"
   exit 1
 }
 
 terraform apply -auto-approve || {
-  echo "${RED}✗ Failed to create GCS bucket. Common issues:"
-  echo "1. Bucket name may already be in use (globally unique names required)"
-  echo "2. Insufficient permissions"
-  echo "3. Invalid project ID"
-  echo "${RESET}"
+  echo "${RED}❌ Failed to create GCS bucket. Common issues:${RESET}"
+  echo "${YELLOW}  • Bucket name may already be in use (globally unique names required)${RESET}"
+  echo "${YELLOW}  • Insufficient permissions${RESET}"
+  echo "${YELLOW}  • Invalid project ID${RESET}"
   exit 1
 }
-echo "${GREEN}✓ GCS bucket deployed successfully${RESET}"
-echo
+echo "${GREEN}✅ GCS bucket deployed successfully${RESET}"
+echo ""
 
 # Upload Website Files
-echo "${BLUE}${BOLD}Step 8: Uploading Website Files${RESET}"
+echo "${BLUE}${BOLD}📤 Step 10: Uploading Website Files${RESET}"
 BUCKET_NAME=$(terraform output -raw bucket_name 2>/dev/null || echo "$DEVSHELL_PROJECT_ID-website")
 
-curl -s -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/index.html || {
-  echo "${YELLOW}⚠️ Failed to download index.html${RESET}"
+curl -s -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/index.html || {
+  echo "${YELLOW}⚠️  Failed to download index.html${RESET}"
 }
 
-curl -s -O https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/main/Interact%20with%20Terraform%20Modules/error.html || {
-  echo "${YELLOW}⚠️ Failed to download error.html${RESET}"
+curl -s -O https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/main/Interact%20with%20Terraform%20Modules/error.html || {
+  echo "${YELLOW}⚠️  Failed to download error.html${RESET}"
 }
 
 if [ -f "index.html" ] && [ -f "error.html" ]; then
   gsutil cp *.html gs://$BUCKET_NAME || {
-    echo "${RED}✗ Failed to upload files to bucket${RESET}"
+    echo "${RED}❌ Failed to upload files to bucket${RESET}"
     exit 1
   }
-  echo "${GREEN}✓ Website files uploaded successfully${RESET}"
+  echo "${GREEN}✅ Website files uploaded successfully${RESET}"
 else
-  echo "${YELLOW}⚠️ Skipping file upload - required files not found${RESET}"
+  echo "${YELLOW}⚠️  Skipping file upload - required files not found${RESET}"
 fi
-echo
+echo ""
 
 # Completion Message
-echo "${BG_RED}${BOLD}============================================${RESET}"
-echo "${BG_RED}${BOLD}   TERRAFORM MODULES LAB COMPLETED!         ${RESET}"
-echo "${BG_RED}${BOLD}============================================${RESET}"
-echo
-echo "${GREEN}${BOLD}Congratulations on completing the lab!${RESET}"
-echo
-echo "${BLUE}${BOLD}For more cloud tutorials:${RESET}"
-echo "${CYAN}Subscribe to Dr. Abhishek's YouTube Channel:${RESET}"
-echo "${YELLOW}https://www.youtube.com/@drabhishek.5460${RESET}"
-echo "${CYAN}Video Tutorials:${RESET}"
-echo "${YELLOW}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${BG_RED}${BOLD}╔══════════════════════════════════════════════════════════╗${RESET}"
+echo "${BG_RED}${BOLD}║                                                          ║${RESET}"
+echo "${BG_RED}${BOLD}║      🎉 TERRAFORM MODULES LAB COMPLETED! 🎉             ║${RESET}"
+echo "${BG_RED}${BOLD}║                                                          ║${RESET}"
+echo "${BG_RED}${BOLD}║   ✅ All modules deployed successfully!                  ║${RESET}"
+echo "${BG_RED}${BOLD}║   🌟 You've mastered Terraform Modules!                 ║${RESET}"
+echo "${BG_RED}${BOLD}║                                                          ║${RESET}"
+echo "${BG_RED}${BOLD}╚══════════════════════════════════════════════════════════╝${RESET}"
+echo ""
+echo "${GREEN}${BOLD}🎯 Congratulations on completing the lab!${RESET}"
+echo ""
+echo "${CYAN}${BOLD}📚 What you've learned:${RESET}"
+echo "  ✅ Terraform Installation and Setup"
+echo "  ✅ VPC Network Creation with Terraform Modules"
+echo "  ✅ GCS Static Website Hosting"
+echo "  ✅ Module Customization and Configuration"
+echo "  ✅ Infrastructure as Code Best Practices"
+echo ""
+echo "${BLUE}${BOLD}🔗 Stay connected with Dr. Abhishek:${RESET}"
+echo "${CYAN}  📺 YouTube Channel:${RESET} ${YELLOW}https://www.youtube.com/@drabhishek.5460${RESET}"
+echo "${CYAN}  🎬 Video Tutorials:${RESET} ${YELLOW}https://www.youtube.com/@drabhishek.5460/videos${RESET}"
+echo "${CYAN}  📂 GitHub:${RESET} ${YELLOW}https://github.com/Itsabhishek7py/GoogleCloudSkillsboost${RESET}"
+echo ""
+echo "${MAGENTA}${BOLD}⭐ Don't forget to LIKE, SHARE & SUBSCRIBE! ⭐${RESET}"
+echo "${GREEN}${BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
