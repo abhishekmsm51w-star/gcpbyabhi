@@ -63,6 +63,16 @@ export ZONE
 
 echo "${GREEN}${BOLD}Variables set successfully!${RESET}"
 echo
+# Install Terraform
+echo "${CYAN}${BOLD}Installing Terraform...${RESET}"
+cat <<'EOF' > ~/.customize_environment
+# Set up HashiCorp repository and install Terraform
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install -y terraform
+EOF
+bash ~/.customize_environment
+
 
 echo "${BG_MAGENTA}${BOLD}Starting Lab Execution${RESET}"
 
