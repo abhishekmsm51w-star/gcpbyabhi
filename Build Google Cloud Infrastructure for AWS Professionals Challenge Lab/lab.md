@@ -16,6 +16,18 @@ curl -LO https://raw.githubusercontent.com/abhishekmsm51w-star/gcpbyabhi/refs/he
 sudo chmod +x abhishek.sh
 ./abhishek.sh
 ```
+
+## At last Run this if not getting scorer
+
+```
+EXTERNAL_IP=$(kubectl get svc wordpress -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
+
+gcloud monitoring uptime create griffin-dev-uptime \
+  --resource-type=uptime-url \
+  --resource-labels=host=$EXTERNAL_IP \
+  --path="/" \
+  --protocol=http
+```
 ### Congratulations !!!!
 
 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey.  
