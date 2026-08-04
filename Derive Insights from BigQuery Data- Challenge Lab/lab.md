@@ -38,6 +38,24 @@ ORDER BY
   date ASC
 LIMIT 1;
 ```
+
+
+1. Go to [Google Looker Studio](https://datastudio.google.com/) and create a **Blank Report**.
+2. Connect to **BigQuery** -> **Custom Query** -> Select your Project ID.
+3. Paste the following query:
+   ```sql
+   SELECT date, SUM(cumulative_confirmed) AS country_cases, SUM(cumulative_deceased) AS country_deaths
+   FROM `bigquery-public-data.covid19_open_data.covid19_open_data`
+   WHERE country_name = 'United States of America'
+   AND date BETWEEN '2020-03-15' AND '2020-04-15' /* Replace with your lab's Date Range */
+   GROUP BY date
+   ```
+4. Click **Add**.
+5. Change the chart to a **Time series chart**.
+6. Set **Dimension** to `date`.
+7. Set **Metrics** to `country_cases` and `country_deaths`.
+8. Click **Check my progress** in Qwiklabs! 🎉
+
 <div align="center">
 
 <h3>🌟 Connect with fellow cloud enthusiasts, ask questions, and share your learning journey! 🌟</h3>
