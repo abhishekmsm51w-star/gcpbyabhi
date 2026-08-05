@@ -84,7 +84,7 @@ set_with_conversation_scenarios
 
 ```
 
-# Copyright 2025 Google LLC
+# Copyright drabhishek subscribe now like the video
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -105,8 +105,6 @@ from dotenv import load_dotenv
 
 from google.cloud import bigquery
 from google.adk.agents import Agent
-from google.adk.tools.bigquery import BigQueryToolset, BigQueryCredentialsConfig
-from google.adk.tools.bigquery.config import BigQueryToolConfig, WriteMode
 from google.adk.models import Gemini
 from google.genai import types
 
@@ -122,24 +120,6 @@ cloud_logging_client.setup_logging()
 from .callback_logging import log_query_to_model, log_model_response
 
 RETRY_OPTIONS = types.HttpRetryOptions(initial_delay=1, attempts=6)
-
-# Uses externally-managed Application Default Credentials (ADC) by default.
-# This decouples authentication from the agent / tool lifecycle.
-# https://cloud.google.com/docs/authentication/provide-credentials-adc
-application_default_credentials, _ = google.auth.default()
-if not application_default_credentials.valid:
-    application_default_credentials.refresh(Request())
-credentials_config = BigQueryCredentialsConfig(
-    credentials=application_default_credentials)
-
-# Define a tool configuration to block any write operations
-tool_config = BigQueryToolConfig(write_mode=WriteMode.ALLOWED)
-
-# Instantiate a BigQuery toolset
-bigquery_toolset = BigQueryToolset(
-    credentials_config=credentials_config,
-    bigquery_tool_config=tool_config
-)
 
 def _serialize_datetime_in_dict(data):
     """Recursively converts datetime objects in a dictionary or list to ISO format strings."""
@@ -216,9 +196,6 @@ def write_to_table(table_name: str, row: dict):
         return ""
     client = bigquery.Client(project=os.getenv('GOOGLE_CLOUD_PROJECT'))
     
-    # We use a standard DML parameterized INSERT statement to avoid BigQuery's 
-    # streaming buffer limitation. This ensures that any rows written can be
-    # deleted or modified immediately afterwards without causing BadRequest errors.
     columns = ", ".join(row.keys())
     param_placeholders = ", ".join(f"@{k}" for k in row.keys())
     
@@ -363,7 +340,6 @@ root_agent = Agent(
         perform_consistent_transaction
     ],
 )
-
 ```
 
 ```
