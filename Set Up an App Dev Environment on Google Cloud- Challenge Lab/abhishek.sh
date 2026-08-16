@@ -213,7 +213,7 @@ echo "${CYAN}${BOLD}Step 6: Deploying Cloud Function...${RESET}"
 deploy_function() {
     gcloud functions deploy $FUNCTION \
     --gen2 \
-    --runtime nodejs20 \
+    --runtime nodejs24 \
     --trigger-resource $DEVSHELL_PROJECT_ID-bucket \
     --trigger-event google.storage.object.finalize \
     --entry-point $FUNCTION \
