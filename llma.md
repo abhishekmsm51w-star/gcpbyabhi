@@ -50,7 +50,7 @@ adk eval bigquery_agent \
 --config_file_path bigquery_agent/evaluations/eval_config.json \
 set_with_conversation_scenarios
 ```
-
+### if getting error then run 1st or or if watching latest video no worries follow video 
 ```
 adk eval bigquery_agent \
 --config_file_path bigquery_agent/evaluations/eval_config.json \
