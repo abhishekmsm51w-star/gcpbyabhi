@@ -41,7 +41,15 @@ EOF
 
 ````
 
+```
+pip install "google-adk[eval]"
 
+pip install -U google-cloud-dataplex
+
+adk eval bigquery_agent \
+--config_file_path bigquery_agent/evaluations/eval_config.json \
+set_with_conversation_scenarios
+```
 
 ```
 adk eval bigquery_agent \
